@@ -1,0 +1,60 @@
+So a few questions arise from this small project
+
+1. What exactly is a constructor's job inside the class?
+2. Convention logic at Class should it be there if not where should it be?
+3.Janky canvas logic?
+4.What are the benefits of OOP => need to dive deeper in that subject?
+5.Is react a OOP language? are componenets close to Objects i've got not clue?
+
+
+What i've learned today
+
+1. First time working with OOP got a taste of the "everything is an object"
+and it seemed nice but kind of confusing at first, i have a bunch of files
+and i need to import from one to another.
+(when importing make sure the script tag is type="module" if i get an error)
+
+2. First time instanciating was a blast truely a cool thing, i enjoyed haveing difficultys
+yet i was reffering to a video guide not exactly the same game but still close
+
+  let apple = new Apple();
+  ^^ this was cool ^^
+
+3. learned a way to implement player movement with switch actaully first time using
+the switch statement, that was intereseing had to find out why the "keyCode"
+was stuckthrough because it was "deferred" apperantly im not sure either way i just used
+key and it worked the same.
+
+4.working with JS random function was cool
+
+5.Found out what is deltaTime => deltaTime is the diffrence between now and the last time 
+for example:
+
+  deltaTime = timestamp - lastTime
+  lasttime = timestamp
+
+timestamp tells me the current time as it name suggests and last time was
+the last time recorded the timestamp so the diffrence is the passage of time!
+
+Things i had trouble with:
+
+1.Janky canvas size and it's derivatives couldent properly set the canvas border
+and thus i couldent clamp the player inside, i kind of hacked it by just resetting the
+position alittle off the other side of the screen creating the effect 
+of looping the screen but in real snake it doesn't happen.
+
+2.Understanding classes and constructors and all of their derivatives
+implemening them and importing them by the end of it i kind of made it worked
+but when it came to refactoring my code it took me a while to grasp.
+not an issue but just some thing i really need to work on.
+
+3.Maintaining order in my code and have proper naming for variables and classes
+i followed a guide so it is not an issue but someday it will become an issue
+i guess i'm the type of developer that bodges things together, need to be mindful of that.
+
+
+Finally i think today was a success in doing things i've never done,
+it's always hard to start and im proud that i begun coding after three weeks of not doing
+anything.
+
+I should keep on going regardless, this is fun and challanging i really enjoy this.
